@@ -28,17 +28,17 @@ execute SQL shell
 
 ### 4. psql cmds :
 
-psql --help : show cmd list
-
-\l : show all databases
-
 ps : Don't delete two default database named template0 and template1
 
-create databhase $dbName; (e.g. testdb1)(ps : this new database created by copy default db named template1)
+    psql --help : show cmd list
 
-\c $dbName; : connect to the pointed db
+    \l : show all databases
 
-drop database $dbName; : delete db
+    create databhase $dbName; (e.g. testdb1)(ps : this new database created by copy default db named template1)
+
+    \c $dbName; : connect to the pointed db
+
+    drop database $dbName; : delete db
 
 ### 5. start sql cmds :
 
@@ -53,7 +53,7 @@ ex : create a new table and it's cols
     testdb1(# sex varchar(5),
     testdb1(# birth date);//xx
 
-\d : list tables in this db
+    \d : list tables in this db
 
-\d $tableName : list detail about pointed table
+    \d $tableName : list detail about pointed table
 
