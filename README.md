@@ -1,12 +1,12 @@
 # Postgresql-note
 
-1. download(Windows) :
+### 1. download(Windows) :
  - pgAdmin(base on GUI to control postgreSql) : https://www.postgresql.org/ftp/pgadmin/pgadmin4/v4.24/windows/
  - postgresql : https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
  
 ps : pgAdmin 可以在安裝postgresql時選擇是否安裝,不用先單獨下載 
 
-2. install 
+### 2. install 
 
 install step1 : 
  - checked four items to install
@@ -16,7 +16,7 @@ install step2 : un checked the item "Stack Builder ..." -> finish
 
 reference : https://www.runoob.com/postgresql/windows-install-postgresql.html
 
-3. start psql 
+### 3. start psql 
 
 reference : https://www.youtube.com/watch?v=qw--VYLpxG4
 
@@ -26,7 +26,7 @@ execute SQL shell
 
 - when show postgres=#, you can start to use psql cmd
 
-4. psql cmds :
+### 4. psql cmds :
 
 psql --help : show cmd list
 
@@ -40,7 +40,7 @@ create databhase $dbName; (e.g. testdb1)(ps : this new database created by copy 
 
 drop database $dbName; : delete db
 
-5. start sql cmds :
+### 5. start sql cmds :
 
 desc : after \c to connected to a db, can use sql code language to control this db
 
